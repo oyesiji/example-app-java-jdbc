@@ -24,7 +24,7 @@ public class BasicExample {
 
         // Configure the database connection.
         PGSimpleDataSource ds = new PGSimpleDataSource();
-        ds.setServerNames(new String[]{"localhost"});
+        ds.setServerNames(new String[]{"server1"});
         ds.setPortNumbers(new int[]{26257});
         ds.setDatabaseName("bank");
         ds.setUser("root");
